@@ -1,2 +1,8 @@
 # lab-06
-CMPUT 301 lab6 Participation 
+
+CMPUT 301 lab6 Participation
+
+
+
+Reese Medele
+
