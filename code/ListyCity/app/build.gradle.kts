@@ -1,6 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
-    id("de.mannodermaus.android-junit5")
+    id("de.mannodermaus.android-junit5") version "1.10.0.0"
 }
 
 android {
@@ -30,11 +30,7 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
-    testOptions {
-        unitTests.all {
-            useJUnitPlatform()
-        }
-    }
+
 }
 
 dependencies {
